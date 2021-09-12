@@ -17,15 +17,13 @@ Para garantir que seu corretor esteja acessível dentro de sua VPC, você deve h
 
   - Escolha Adicionar regra;
   - Em Tipo, selecione TCP personalizado;
-  - para oIntervalo de Portas, digite a porta do console da Web (8162).
-
-para oOrigem, sairCustom (Personalizado)selecionado e digite o endereço IP do sistema que você deseja ser capaz de acessar o console da Web (por exemplo,192.0.2.1).
-
-Escolha Save (Salvar).
-
+  - para oIntervalo de Portas, digite a porta do console da Web (8162);
+  - para oOrigem, sairCustom (Personalizado)selecionado e digite o endereço IP do sistema que você deseja ser capaz de acessar o console da Web (por exemplo,192.0.2.1);
+  - Escolha Save (Salvar).
+  - 
 Agora seu operador pode aceitar conexões de entrada.
 
-Adicionar dependências de Java
+# Adicionar dependências de Java
 
 ### Adicione oactivemq-client.jareactivemq-pool.jarao caminho da classe Java. O exemplo a seguir mostra essas dependências em um arquivo pom.xml do projeto Maven.
 
